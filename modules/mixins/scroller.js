@@ -66,6 +66,7 @@ module.exports = {
       }
 
       scrollOffset += (props.offset || 0);
+      scrollOffset += (props.scrollOffset || 0);
 
       /*
        * if animate is not provided just scroll into the view
